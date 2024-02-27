@@ -69,9 +69,10 @@ const ProjectShowCase = () => {
           <ul className="list-disc p-5">
             <li>Team - Alone</li>
             <li>
-              Developed a Media Player Software Which can run offline too.
+              Developed a Media Player Software using electron js Which can run
+              offline too.
             </li>
-            <li>Inplement Socket To control player through our dashboard. </li>
+            <li>Implement Socket To control player through our dashboard. </li>
             <li>Used Indexed DB to store logs in large amount. </li>
             <li>Implement Feature to integrate with other applications.</li>
           </ul>
