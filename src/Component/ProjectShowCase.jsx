@@ -26,6 +26,12 @@ const ProjectShowCase = () => {
           </div>
           <ul className="list-disc p-5">
             <li>Team - 3 members</li>
+            <li>
+              Collaborated with a team of 3 individuals to spearhead the
+              development of a web application aimed at tracking live auditing
+              and delivering analytics for the Lok Sabha Election ‑ 2024 across
+              over 2.5 Million locations.
+            </li>
             <li>Designing, Architecting, and Developing the Frontend Alone</li>
             <li>Dynamic Ui with real time pointers in map with animations.</li>
           </ul>
@@ -108,6 +114,7 @@ const ProjectShowCase = () => {
           />
         </div>
       </section>
+
       <section className="flex mt-5 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">
@@ -160,6 +167,58 @@ const ProjectShowCase = () => {
             ]}
             speed={3000}
             slidesToShow={2}
+          />
+        </div>
+      </section>
+      <section className="flex mt-5 flex-col md:flex-row">
+        <div className="w-full md:w-1/2 py-5">
+          <h2 className="text-2xl mb-5 font-bold">
+            5. Resume Builder (Freelance Project)
+          </h2>
+          <div className="flex gap-1 flex-wrap">
+            <b>Tech Stack -</b>{" "}
+            <span className="bg-[#333] p-[3px_10px] rounded-md">React.js</span>{" "}
+            <span className="bg-[#333] p-[3px_10px] rounded-md">
+              Tailwind css
+            </span>{" "}
+          </div>
+          <ul className="list-disc p-5">
+            <li>
+              Team - Alone
+              <span className="p-1 text-sm bg-[#333] rounded-md mx-2 px-2">
+                Frontend Only
+              </span>
+            </li>
+
+            <li>
+              Developed a resume builder from scratch with custom client
+              requirements
+              <div className="inline-block w-max p-1 text-sm bg-[#333] rounded-md mx-2 px-2 hover:scale-110 hover:bg-green-600 duration-150 cursor-pointer">
+                <a href="https://true-cv.vercel.app/" target="_blank">
+                  True CV
+                </a>
+              </div>
+            </li>
+            <li>Mobile responsive</li>
+            <li>Multiple Templates</li>
+            <li>Saving Data on localstorage</li>
+          </ul>
+          <p className="w-max text-[#111] font-semibold p-2 rounded-md text-[12px] bg-yellow-500">
+            <b>Note:</b> This is a Frontend Application Only, integration with
+            backend is remaning
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 ">
+          <Carousel
+            items={[
+              "project5-1.png",
+              "project5-2.png",
+              "project5-3.png",
+              "project5-4.png",
+              "project5-5.png",
+            ]}
+            speed={2000}
+            slidesToShow={1}
           />
         </div>
       </section>

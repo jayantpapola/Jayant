@@ -25,7 +25,7 @@ const Contact = () => {
           <img src="linkedin.png" className="h-[20px]" /> linkedin
         </a>
         <a
-          href="https://www.linkedin.com/"
+          href="MyResume.pdf"
           target="_blank"
           className="hover:ring text-white p-[20px]  flex items-center gap-2  rounded-full cursor-pointer bg-[#222] duration-200"
         >
