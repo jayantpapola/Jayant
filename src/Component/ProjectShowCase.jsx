@@ -35,9 +35,9 @@ const ProjectShowCase = () => {
             <li>Designing, Architecting, and Developing the Frontend Alone</li>
             <li>Dynamic Ui with real time pointers in map with animations.</li>
           </ul>
-          <span className="text-[#999] p-2 rounded-md text-[12px] bg-[#222]">
+          <p className="text-[#999] p-2 rounded-md text-[12px] bg-[#222]">
             I can't share more screenshots and info due to company policies.
-          </span>
+          </p>
         </div>
         <div className="w-full md:w-1/2  ">
           <Carousel
@@ -51,6 +51,7 @@ const ProjectShowCase = () => {
           />
         </div>
       </section>
+
       <section className="flex mt-5 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">
@@ -76,14 +77,15 @@ const ProjectShowCase = () => {
             <li>Used Indexed DB to store logs in large amount. </li>
             <li>Implement Feature to integrate with other applications.</li>
           </ul>
-          <span className="text-[#999] p-2 rounded-md text-[12px] bg-[#222]">
+          <p className="text-[#999] p-2 rounded-md text-[12px] bg-[#222]">
             I can't share more screenshots and info due to company policies.
-          </span>
+          </p>
         </div>
         <div className="w-full md:w-1/2 ">
           <Carousel items={["project2.png", "project2-2.png"]} speed={3000} />
         </div>
       </section>
+
       <section className="flex mt-5 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">3. LocAudit Admin Panel</h2>
@@ -104,9 +106,9 @@ const ProjectShowCase = () => {
             <li>Developed a Super Admin Panel for one of companies product.</li>
             <li>Designed, and Architect Frontend.</li>
           </ul>
-          <span className="text-[#999] p-2 rounded-md text-[12px] bg-[#222]">
+          <p className="text-[#999] p-2 rounded-md text-[12px] bg-[#222]">
             I can't share more screenshots and info due to company policies.
-          </span>
+          </p>
         </div>
         <div className="w-full md:w-1/2 ">
           <Carousel
@@ -154,9 +156,9 @@ const ProjectShowCase = () => {
             </li>
             <li>Integrate sms, QR scan, wallet and many more features.</li>
           </ul>
-          <span className="text-[#999] p-2 rounded-md text-[12px] bg-[#222]">
+          <p className="text-[#999] font-semibold p-2 rounded-md text-[12px] bg-[#222]">
             I can't share more screenshots and info due to company policies.
-          </span>
+          </p>
         </div>
         <div className="w-full md:w-1/2 ">
           <Carousel
@@ -171,6 +173,7 @@ const ProjectShowCase = () => {
           />
         </div>
       </section>
+
       <section className="flex mt-5 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">
@@ -204,7 +207,7 @@ const ProjectShowCase = () => {
             <li>Multiple Templates</li>
             <li>Saving Data on localstorage</li>
           </ul>
-          <p className="w-max text-[#111] font-semibold p-2 rounded-md text-[12px] bg-yellow-500">
+          <p className="text-[#111] font-semibold p-2 rounded-md text-[12px] bg-yellow-500">
             <b>Note:</b> This is a Frontend Application Only, integration with
             backend is remaning
           </p>
