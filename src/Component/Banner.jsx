@@ -55,11 +55,15 @@ const Banner = () => {
         </div>
 
         <div
-          className={`text-[#999] md:text-[20px] px-[100px] flex flex-col items-center mt-[20px] text-center md:px-[280px]`}
+          className={`text-[#999] md:text-[16px] text-[12px]  px-[30px] flex flex-col items-center mt-[20px] text-center md:px-[280px]`}
         >
-          <h1 className="font-extrabold md:text-[28px] ">Jayant Papola</h1>
-          Experienced in crafting dynamic user interfaces with a diverse skill
-          set encompassing full-stack development.
+          <h1 className="font-extrabold md:text-[28px] mb-2">Jayant Papola</h1>
+          <span className="md:block ">
+            Skilled MERN Stack frontend developer with 2+ years of experience in
+            building responsive web applications, RESTful API integration, and
+            cloud deployment. Proficient in architecture design, agile
+            workflows, and delivering high-quality solutions.
+          </span>
         </div>
 
         <AnimatedBG

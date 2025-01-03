@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const ProjectShowCase = () => {
   return (
-    <div className="text-white p-5 mb-[50px]">
+    <div className="text-white p-5 mb-[50px] md:px-[160px]">
       <div className="text-[40px] font-black mb-5 bg-[#222] p-3 rounded-md  px-5 shadow-xl">
         Projects
       </div>
@@ -52,7 +52,7 @@ const ProjectShowCase = () => {
         </div>
       </section>
 
-      <section className="flex mt-5 flex-col md:flex-row">
+      <section className="flex mt-10 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">
             2. Screeno Player (Media Player)
@@ -86,7 +86,7 @@ const ProjectShowCase = () => {
         </div>
       </section>
 
-      <section className="flex mt-5 flex-col md:flex-row">
+      <section className="flex mt-10 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">3. LocAudit Admin Panel</h2>
           <div className="flex gap-1 flex-wrap">
@@ -118,7 +118,7 @@ const ProjectShowCase = () => {
         </div>
       </section>
 
-      <section className="flex mt-5 flex-col md:flex-row">
+      <section className="flex mt-10 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">
             4. Locaudit Pro (Android Application)
@@ -174,10 +174,54 @@ const ProjectShowCase = () => {
         </div>
       </section>
 
-      <section className="flex mt-5 flex-col md:flex-row">
+      <section className="flex mt-10 flex-col md:flex-row">
         <div className="w-full md:w-1/2 py-5">
           <h2 className="text-2xl mb-5 font-bold">
-            5. Resume Builder (Freelance Project)
+            5. Multiple Web Applications And Features
+          </h2>
+
+          <p>
+            Developed and implemented multiple full-stack projects and features,
+            customized to meet client-specific requirements, ensuring optimal
+            functionality, scalability, and a seamless user experience.
+          </p>
+          <ul className="list-disc p-5">
+            <b>Examples</b>
+            <li>
+              Cab Live Auditing to track all stop Locations and display the path
+              on map with moving animation
+            </li>
+            <li>
+              Feature of Dynamic creative which can run loop vertically as well
+              as horizontally
+            </li>
+            <li>Notification Feature to show alerts</li>
+            <li>
+              Generate QR codes, track scan counts, and display the scan data on
+              an interactive map
+            </li>
+            <li>Developed many more features and projects</li>
+          </ul>
+        </div>
+        <div className="w-full md:w-1/2 ">
+          <Carousel
+            items={[
+              "Others (5).png",
+              "Others (4).png",
+              "Others (3).png",
+              "Others (2).png",
+              "Others (1).png",
+            ]}
+            speed={2000}
+            slidesToShow={1}
+          />
+        </div>
+      </section>
+
+      <section className="flex mt-10 flex-col md:flex-row">
+        <div className="w-full md:w-1/2 py-5">
+          <h2 className="text-2xl mb-5 font-bold">
+            6. Resume Builder (Freelance Project)
           </h2>
           <div className="flex gap-1 flex-wrap">
             <b>Tech Stack -</b>{" "}

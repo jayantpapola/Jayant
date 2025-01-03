@@ -7,12 +7,11 @@ import About from "./About";
 const Page = () => {
   return (
     <div
-      className="bg-[#030303] bg-gradient-to-tr from-black to-[#222]"
+      className="bg-[#000] bg-gradient-to-tr from-black to-[#222]"
       id="projects"
     >
       <Header />
       <ProjectShowCase />
-      {/* <About /> */}
       <Contact />
     </div>
   );
